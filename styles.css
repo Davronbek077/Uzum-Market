@@ -772,9 +772,18 @@ header{
 @media screen and (max-width: 540px) {
     .content-cart{
         display: flex;
-        gap: 10px;
+        gap: 5px;
     }
 
+}
+
+@media screen and (max-width: 540px){
+    .content-cart{
+        width: 78%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 1660px) {
@@ -807,4 +816,37 @@ header{
         width: 82%;
     }
 
+}
+
+@media screen and (max-width: 430px){
+    header{
+        position: relative;
+        right: 120px;
+    }
+
+    .header-input{
+        width: 250px;
+        height: 40px;
+    }
+
+    .header-input input{
+        font-size: 14px;
+    }
+
+    .content-photo{
+        width: 78%;
+    }
+
+    .cart-title{
+        font-size: 12px;
+    }
+
+
+}
+
+@media  screen and (max-width: 420px){
+    .banner-wrapper{
+        position: relative;
+        right: 10px;
+    }
 }
