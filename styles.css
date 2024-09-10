@@ -185,7 +185,7 @@ header{
     left: 145px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .content-cart h3{
@@ -736,11 +736,36 @@ header{
 @media screen and (max-width: 550px) {
     body{
         position: relative;
-        right: 30px;
+        right: 80px;
     }
 
     .cart-title{
         width: 150px;
+    }
+
+    .content-photo{
+        width: 80%;
+        height: auto;
+    }
+
+    .cart-image{
+        width: 100px;
+        height: auto;
+    }
+
+    .cart-icon{
+        width: 26px;
+        height: 28px;
+    }
+
+    .cart-icon i {
+        padding-right: 25px;
+        padding-top: 3px;
+    }
+
+    .content-cart{
+        display: flex;
+        gap: 3px;
     }
 }
 
@@ -777,8 +802,9 @@ header{
     }
 }
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 670px) {
     .banner-wrapper{
         width: 82%;
     }
+
 }
